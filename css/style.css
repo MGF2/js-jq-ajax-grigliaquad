@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.template {
+  width: 602px;
+  height: 602px;
+  border: 1px solid gray;
+  /* text-align: center;
+  background-color: lightblue; */
+}
+
+.square {
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  border: 1px solid gray;
+  float: left;
+  text-align: center;
+  line-height: 100px;
+}
+
+.under {
+  background-color: yellow;
+}
+
+.over {
+  background-color: lightgreen;
+}
